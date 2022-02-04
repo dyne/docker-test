@@ -71,5 +71,4 @@ jobs:
           build-args: ${{ steps.conf.outputs.buildargs }}
           push: true
           platforms: linux/amd64
-          tags: ${{ steps.version.outputs.tag }}
           labels: ${{ steps.meta.outputs.labels }}
