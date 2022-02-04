@@ -72,3 +72,5 @@ jobs:
           push: true
           platforms: linux/amd64
           labels: ${{ steps.meta.outputs.labels }}
+          tags: |
+            ghcr.io/dyne/docker-test:latest
